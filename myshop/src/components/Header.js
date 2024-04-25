@@ -1,3 +1,4 @@
+import React from "react";
 import Cookies from "universal-cookie";
 
 function Header() {
@@ -31,8 +32,8 @@ function Header() {
         </>
       ) : (
         <>
-          nbsp;nbsp;nbsp;nbsp;nbsp;nbsp;nbsp;nbsp;nbsp;nbsp;{name.key}님
-          환영합니다.nbsp;nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{name.key}님
+          환영합니다.&nbsp;&nbsp;
           <a
             onClick={() => {
               removeCookies("userid");
